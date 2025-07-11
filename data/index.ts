@@ -4,21 +4,21 @@ export const navItems = [
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
-
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I’ve unlocked over 1500+ days in my IT journey, gaining hands-on experience across data analysis, business insights projects.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Adapt to multiple time zones requirements.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "My Tech Stack",
+    description: "SQL, Power BI",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,19 +38,20 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Self-learned developer with strong business acumen.",
+    description: "Certified, Analytical, Curious",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "Skilled in Business Reporting, processing structured data, automating repetitive workflows using tools like Power BI and Excel VBA & Data Automation",
+    description: "",
+
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let’s connect and build something impactful.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +73,52 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Post Covid Market Analysis",
+    des: "As a Business Analyst & Data Analyst at ZogGlobal, I conducted market research and user behavior analysis to guide the development market. I translated insights into actionable recommendations, improving user engagement and aligning simulation features with business goals.",
+    img: "/p1.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://zogglobal.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Accuracy In Analytics",
+    des: " As a Business Analyst to improve accuracy in decision making I analyzed usage patterns, defined KPIs, created data dashboards, and provided actionable insights that enhanced user experience and drove feature adoption.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://cyberiasoftwaresolution.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Akshay was a fantastic experience. As a Business Analyst at ZogGlobal, he had a clear understanding of both business needs and technical possibilities. His ability to translate complex data into actionable strategies significantly contributed to the success of our 3D simulation project.",
+    name: "Ravi Menon",
+    title: "Project Manager, ZogGlobal",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Akshay has an exceptional knack for data interpretation and business insight. During our collaboration at ZogGlobal, he was instrumental in streamlining communication between departments and delivering analytical reports that drove informed decisions.",
+    name: "Sneha Iyer",
+    title: "Software Engineer, ZogGlobal",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a teammate at ZogGlobal, I truly appreciated Akshay’s analytical thinking and attention to detail. His dashboards and reports were always clear, impactful, and timely. He made complex data easy for everyone to understand.",
+    name: "Karthik Ramesh",
+    title: "UI/UX Designer, ZogGlobal",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Akshay brings a calm and structured approach to every problem. His business analysis skills were vital to aligning our project goals with client expectations. A reliable and thoughtful team member anyone would be lucky to work with.",
+    name: "Priya Shah",
+    title: "QA Analyst, ZogGlobal",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "It was a pleasure collaborating with Akshay at ZogGlobal. His insights helped shape several strategic decisions, and his work ethic is unmatched. He always ensured that our data-backed decisions aligned with project and business goals.",
+    name: "Anil Joshi",
+    title: "Tech Lead, ZogGlobal",
   },
 ];
 
@@ -173,29 +158,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Business Analyst – ZogGlobal",
+    desc: "Conducted requirements gathering, competitor research, and delivered data-driven insights to support strategic decisions in a 3D simulation platform project.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Frontend Developer – Cyberia Software Solution",
+    desc: "Built and optimized responsive web interfaces using React.js and Tailwind CSS, focusing on usability, performance, and cross-browser compatibility.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Digital Marketing Executive – Freelance",
+    desc: "Developed and executed social media, SEO, and email marketing strategies for small businesses. Increased lead conversion through targeted ad campaigns and audience insights.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Shopify Store Manager – Dropshipping Projects",
+    desc: "Launched and managed multiple Shopify stores, handling product research, store setup, order fulfillment, and customer support. Scaled revenue through Facebook and Google ads.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -204,14 +189,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/link.svg",
+    url: "https:/www.linkedin.com/in/akshayakumar-a-9b8b02269",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/git.svg",
+    url: "https://github.com/thisisakshay16",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/wat.svg",
+    url: "https://wa.me/971554353597", // Use intl format, e.g. 919876543210
   },
 ];
